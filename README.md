@@ -20,7 +20,7 @@ For fine-tuning, this project uses torchvision.datasets.SBDataset which uses pix
 - 1..N = object class indices (treat any non-zero as foreground)
 - 255 = ignore / void (these pixels are excluded from loss and metrics)
 
-The SBBinaryDataset wrapper provided in utils.py converts class-index masks to a binary mask plus a valid_mask (0/1) that marks which pixels should be used in loss computation.
+The SBBinaryDataset wrapper provided converts class-index masks to a binary mask plus a valid_mask (0/1) that marks which pixels should be used in loss computation.
 
 During Inference, input images can be of varying sizes between dataset.
 
