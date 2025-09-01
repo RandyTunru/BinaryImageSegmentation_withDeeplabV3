@@ -10,7 +10,7 @@ A compact PyTorch project that fine-tunes a pre-trained DeepLabv3-ResNet50 model
 - Supports head-only warmup (freeze backbone), then full fine-tuning with differential learning rates
 - Inference utilities: save grayscale masks and RGBA foregrounds
 - Example scripts to train, validate, and run inference on images
-- Model state (in .pth) can be accessed here: [Gdrive](https://drive.google.com/drive/folders/1un3hQg6ev3cqUaQTZ6eKmm73G8s6mi3g?usp=sharing)
+- Model state (in .pth) can be accessed here: [Gdrive](https://drive.google.com/file/d/1HSBV9m4wAqT8iB5GT0zE8lC2K_f4RJ27/view?usp=sharing)
 
 ## Dataset
 
