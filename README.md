@@ -26,6 +26,6 @@ During Inference, input images can be of varying sizes between dataset.
 
 ## Example Output
 
-![Original Image](./images/1.png)
-![Binary Segmented Image](./outputs/mask_binary.png)
-![Foreground Image](./outputs/output.png)
+![Original Image](./images/1.png "Original Image")
+![Binary Segmented Image](./outputs/mask_binary.png "Binary Segmented Image")
+![Foreground Image](./outputs/output.png "Foreground Image")
